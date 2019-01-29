@@ -37,6 +37,7 @@ from matplotlib.ticker import MultipleLocator
 def use_colors(tones, i=None):
     """
     Use specific color tones for plotting. If i is specified, this function returns a specific color from the corresponding color cycle
+    For custom color palettes generation check: http://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=8
     Args:
         tones : 'hot' or 'cold' for hot and cold colors
     Returns:
